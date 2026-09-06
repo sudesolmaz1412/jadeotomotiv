@@ -24,3 +24,164 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* =========================
+   MOBİL RESPONSIVE DÜZEN
+   ========================= */
+
+@media (max-width: 768px) {
+
+  /* Genel yatay boşluk */
+  section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* İç container'lar */
+  section > div,
+  section .max-w-7xl,
+  section .max-w-6xl,
+  section .max-w-5xl {
+    max-width: 100% !important;
+  }
+
+  /* Tüm grid yapıları mobilde tek kolon */
+  section .grid {
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  /* Hero */
+  #anasayfa {
+    min-height: 650px !important;
+    padding-top: 90px !important;
+    padding-bottom: 60px !important;
+  }
+
+  #anasayfa h1 {
+    font-size: 38px !important;
+    line-height: 1.08 !important;
+    letter-spacing: -1px !important;
+  }
+
+  #anasayfa p {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Butonlar */
+  section a {
+    max-width: 100%;
+  }
+
+  /* Hakkımızda */
+  #hakkimizda {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+  }
+
+  #hakkimizda h2 {
+    font-size: 34px !important;
+    line-height: 1.1 !important;
+  }
+
+  /* Ürün grupları */
+  #urunler {
+    padding-top: 65px !important;
+    padding-bottom: 65px !important;
+  }
+
+  #urunler h2 {
+    font-size: 32px !important;
+  }
+
+  /* Markalar */
+  #markalar {
+    padding-top: 65px !important;
+    padding-bottom: 65px !important;
+  }
+
+  #markalar h2 {
+    font-size: 32px !important;
+    line-height: 1.15 !important;
+  }
+
+  #markalar .grid {
+    gap: 16px !important;
+  }
+
+  /* Marka kartları */
+  #markalar .grid > div,
+  #markalar .grid > a {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  /* İletişim */
+  #iletisim {
+    padding-top: 65px !important;
+    padding-bottom: 65px !important;
+  }
+
+  #iletisim h2 {
+    font-size: 34px !important;
+    line-height: 1.1 !important;
+  }
+
+  /* Telefon / WhatsApp butonları */
+  #iletisim a {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Taşan uzun metinleri engelle */
+  h1,
+  h2,
+  h3,
+  p,
+  a {
+    overflow-wrap: break-word;
+  }
+
+  /* Mobilde kart iç boşlukları */
+  section .rounded-2xl,
+  section .rounded-3xl {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Footer */
+  footer {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+}
+
+/* Küçük telefonlar */
+@media (max-width: 480px) {
+
+  #anasayfa h1 {
+    font-size: 32px !important;
+  }
+
+  #hakkimizda h2,
+  #urunler h2,
+  #markalar h2,
+  #iletisim h2 {
+    font-size: 29px !important;
+  }
+
+  section {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  section .rounded-2xl,
+  section .rounded-3xl {
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+  }
+
+}
+
