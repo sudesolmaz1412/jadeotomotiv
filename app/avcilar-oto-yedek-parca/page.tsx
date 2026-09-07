@@ -240,6 +240,40 @@ export default function AvcilarOtoYedekParcaPage() {
           }),
         }}
       />
-    </main>
+    
+      <section className="bg-slate-50 px-6 py-14 md:px-10 lg:px-16">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-2xl font-black md:text-3xl">
+            Oto yedek parça hakkında diğer sayfalar
+          </h2>
+          <p className="mt-3 leading-7 text-slate-600">
+            Oto yedek parça, tedarik ve fiyat bilgileri hakkında hazırladığımız
+            diğer sayfalara da göz atabilirsiniz.
+          </p>
+
+          <div className="mt-7 grid gap-4 sm:grid-cols-3">
+            <a
+              href="/otomotiv-yedek-parca"
+              className="rounded-2xl border border-slate-200 bg-white p-5 font-black transition hover:-translate-y-1 hover:shadow-md"
+            >
+              Otomotiv Yedek Parça →
+            </a>
+            <a
+              href="/oto-yedek-parca-tedarikcisi"
+              className="rounded-2xl border border-slate-200 bg-white p-5 font-black transition hover:-translate-y-1 hover:shadow-md"
+            >
+              Oto Yedek Parça Tedarikçisi →
+            </a>
+            <a
+              href="/oto-yedek-parca-fiyatlari"
+              className="rounded-2xl border border-slate-200 bg-white p-5 font-black transition hover:-translate-y-1 hover:shadow-md"
+            >
+              Oto Yedek Parça Fiyatları →
+            </a>
+          </div>
+        </div>
+      </section>
+
+</main>
   );
 }

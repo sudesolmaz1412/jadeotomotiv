@@ -248,6 +248,26 @@ export default function OtoYedekParcaFiyatlariPage() {
           </div>
         </div>
       </section>
-    </main>
+    
+      <section className="bg-slate-50 px-6 py-14 md:px-10 lg:px-16">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-2xl font-black md:text-3xl">
+            Oto yedek parça rehberi
+          </h2>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a href="/avcilar-oto-yedek-parca" className="rounded-xl bg-[#071a33] px-5 py-3 font-black text-white">
+              Avcılar Oto Yedek Parça
+            </a>
+            <a href="/otomotiv-yedek-parca" className="rounded-xl border border-slate-300 px-5 py-3 font-black">
+              Otomotiv Yedek Parça
+            </a>
+            <a href="/oto-yedek-parca-tedarikcisi" className="rounded-xl border border-slate-300 px-5 py-3 font-black">
+              Oto Yedek Parça Tedarikçisi
+            </a>
+          </div>
+        </div>
+      </section>
+
+</main>
   );
 }
