@@ -4,6 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://frenbalataci.com.tr";
 
   return [
+    { url: "https://frenbalataci.com.tr/ticari-arac-yedek-parca", lastModified: new Date() },
     { url: "https://frenbalataci.com.tr/renault-clio-yedek-parca", lastModified: new Date() },
     {
       url: baseUrl,
