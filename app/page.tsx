@@ -486,9 +486,15 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Jade Otomotiv WhatsApp"
-        className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-cyan-400 text-sm font-black text-slate-950 shadow-2xl transition hover:scale-105 hover:bg-cyan-300"
+        className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl transition hover:scale-105 hover:bg-[#20bd5a]"
       >
-        WA
+        <svg
+          viewBox="0 0 32 32"
+          className="h-8 w-8 fill-current"
+          aria-hidden="true"
+        >
+          <path d="M16 3C8.82 3 3 8.82 3 16c0 2.3.6 4.47 1.74 6.39L3.1 29l6.77-1.6A12.94 12.94 0 0 0 16 29c7.18 0 13-5.82 13-13S23.18 3 16 3Zm0 23.8c-2.1 0-4.16-.56-5.96-1.62l-.43-.25-4.02.95.97-3.91-.28-.45A10.78 10.78 0 0 1 5.22 16C5.22 10.06 10.06 5.22 16 5.22S26.78 10.06 26.78 16 21.94 26.8 16 26.8Zm5.91-8.08c-.32-.16-1.89-.93-2.18-1.04-.29-.11-.5-.16-.71.16-.21.32-.82 1.04-1.01 1.25-.18.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.89-1.78-2.21-.18-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.18.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.71-1.71-.97-2.34-.26-.62-.52-.54-.71-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.66s1.14 3.09 1.3 3.3c.16.21 2.24 3.42 5.43 4.79.76.33 1.35.52 1.81.67.76.24 1.45.21 2 .13.61-.09 1.89-.77 2.16-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37Z" />
+        </svg>
       </a>
     </main>
   );
